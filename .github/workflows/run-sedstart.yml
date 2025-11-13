@@ -14,6 +14,6 @@ jobs:
           project_id: 218
           test_id: 1640
           profile_id: 000
-          browser: chrome
-          headless: 
-          environment: 
+          browser: firefox
+          headless: false
+          environment: QA
