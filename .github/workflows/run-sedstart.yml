@@ -12,7 +12,7 @@ jobs:
         with:
           api_key: ${{ secrets.SEDSTART_API_KEY }}
           project_id: 218
-          test_id: 1275
+          test_id: 1635
           profile_id: 257
           browser: chrome
           headless: false
