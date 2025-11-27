@@ -13,6 +13,6 @@ jobs:
           api_key: ${{ secrets.SEDSTART_API_KEY_PROD }}
           project_id: 543
           test_id: 4333
-          profile_id: 
+          profile_id: 000
           browser: chrome
           headless: false
