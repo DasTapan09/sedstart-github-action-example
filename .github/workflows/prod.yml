@@ -14,5 +14,5 @@ jobs:
           project_id: 543
           test_id: 4333
           profile_id: 896
-          browser: chrome
+          browser: 
           headless: false
