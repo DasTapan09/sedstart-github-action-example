@@ -12,6 +12,6 @@ jobs:
         project_id: 398
         test_id: 1852
         profile_id: 801
-        browser: chrome
+        browser: safari
         environment: QA
       
