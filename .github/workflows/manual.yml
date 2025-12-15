@@ -10,7 +10,7 @@ jobs:
       with:
         api_key: 42c49268-69fb-413d-ba04-40dd4ea19230
         project_id: 398
-        test_id: 1852
+        suite_id: 363
         profile_id: 801
         browser: chrome
         environment: QA
