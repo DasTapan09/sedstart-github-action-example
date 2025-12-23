@@ -12,8 +12,8 @@ jobs:
         with:
           api_key: ${{ secrets.SEDSTART_KEY }}
           project_id: 364
-          test_id: 1629
+          suite_id: 316
           profile_id: 616
-          browser: chrome
+          browser: 'chrome'
           headless: false
           environment: QA
