@@ -1,17 +1,18 @@
 name: Sedstart local
+
 on:
   workflow_dispatch:
+
 jobs:
   sedstart:
     runs-on: ubuntu-latest
     steps:
-    - name: Running Sedstart
-      uses: sedstart/runlocal@v1
-      with:
-        api_key: ${{ secrets.SEDSTART_KEY }}
-        project_id: 418
-        suite_id: 392
-        profile_id: 848
-        browser: chrome
-        environment: QA
-      
+      - name: Running Sedstart
+        uses: sedstart/runlocal@v1
+        with:
+          api_key: ${{ secrets.SEDSTART_KEY }}
+          project_id: 418
+          suite_id: 392
+          profile_id: 848
+          browser: chrome
+          environment: QA
