@@ -8,10 +8,10 @@ jobs:
     - name: Running Sedstart
       uses: sedstart/runlocal@v1
       with:
-        api_key: 42c49268-69fb-413d-ba04-40dd4ea19230
-        project_id: 398
-        test_id: 1852
-        profile_id: 801
-        browser: 
+        api_key: 1484ab07-806c-421a-8f7a-824c71636042
+        project_id: 418
+        test_id: 1938
+        profile_id: 848
+        browser: chrome
         environment: QA
       
